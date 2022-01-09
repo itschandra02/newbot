@@ -1,0 +1,6 @@
+Lu Ke Web : dapuhy.xyz
+Register/Kalo Udh Punya Login
+Cari Apikey Lu Di Bawah
+Copy Paste Di Folder src/apikey.json
+
+NB : KALO GAADA APIKEY FITUR MAKER NYA BBRP NGGAK WORK
