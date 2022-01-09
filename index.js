@@ -1345,7 +1345,7 @@ ${bawah}
 ║▌│█║▌│ █║▌│█│║▌║
 ║▌│█║▌│ █║▌│█│║▌║
 
-    © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`, pageCount: 1000 }, [{buttonId:`!owner`,buttonText:{displayText:'I LOVE YOU'},type:1},{buttonId:`!donasi`,buttonText:{displayText:'YOU TO'},type:1},], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod],}})
+    © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}` }, [{buttonId:`!owner`,buttonText:{displayText:'I LOVE YOU'},type:1},{buttonId:`!donasi`,buttonText:{displayText:'YOU TO'},type:1},], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod],}})
             break
 
 
