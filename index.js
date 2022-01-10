@@ -50,6 +50,7 @@ const googleImage = require('g-i-s')
 const brainly = require('brainly-scraper')
 const fetch = require('node-fetch');
 const request = require('request');
+const yts = require( 'yt-search')
 const ms = require('parse-ms')
 const toMs = require('ms')
 const axios = require("axios")
