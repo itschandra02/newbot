@@ -1021,6 +1021,28 @@ ${garis}
 ${bawah}   
 `            
 Sendbutdocument(from, allmenuuu, `${atas}
+${bates} _NEW_ *FITUR* 🎉
+${garis + kotak} ${prefix}artinama [NEW] < nama >
+${garis + kotak} ${prefix}mediafire [NEW] < Link >
+${garis + kotak} ${prefix}lirik [NEW] < judul lagu >
+${garis + kotak} ${prefix}62 [NEW]
+${garis + kotak} ${prefix}santuy [NEW]
+${garis + kotak} ${prefix}ukhti [NEW]
+${garis + kotak} ${prefix}bocil [NEW]
+${garis + kotak} ${prefix}ghea [NEW]
+${garis + kotak} ${prefix}rikagusriani [NEW]
+${bawah}
+
+${atas}
+${bates} _NEW_ *FITUR VOKAL* 💢
+${garis + kotak} ${prefix}hilih [NEW]
+${garis + kotak} ${prefix}huluh [NEW]
+${garis + kotak} ${prefix}halah [NEW]
+${garis + kotak} ${prefix}holoh [NEW]
+${garis + kotak} ${prefix}heleh [NEW]
+${bawah}
+
+${atas}
 ${bates} *ADMIN MENU* 🤴
 ${garis + kotak} ${prefix}welcome < enable/disable >
 ${garis + kotak} ${prefix}antilink < on/off >
@@ -1056,13 +1078,20 @@ ${garis + kotak} ${prefix}premium add/del
 ${bawah}
 
 ${atas}
+${bates} *STICKER MENU* 📌
+${garis + kotak} ${prefix}pmeme < reply foto text1|text2 >
+${garis + kotak} ${prefix}smeme < reply stiker text1|text2 >
+${garis + kotak} ${prefix}sticker < ReplyFoto >
+${garis + kotak} ${prefix}sgif < ReplyVideo >
+${bawah}
+
+${atas}
 ${bates} *DOWNLOAD MENU* 📥
 ${garis + kotak} ${prefix}ytmp3 < Link >
 ${garis + kotak} ${prefix}ytmp4 < Link >
-${garis + kotak} ${prefix}mediafire < Link >
-${garis + kotak} ${prefix}tiktok < link >
-${garis + kotak} ${prefix}ttnowm < link >
-${garis + kotak} ${prefix}ttwm < link >
+${garis + kotak} ${prefix}mediafire [NEW] < Link >
+${garis + kotak} ${prefix}tiktok [NEW] < link >
+${garis + kotak} ${prefix}tiktokwatermark < link >
 ${bawah}
 
 ${atas}
@@ -1070,7 +1099,7 @@ ${bates} *SEARCHING MENU* 🔎
 ${garis + kotak} ${prefix}pinterest < Query >
 ${garis + kotak} ${prefix}playstore < nama apk >
 ${garis + kotak} ${prefix}linkwa < nama gc >
-${garis + kotak} ${prefix}lirik < judul lagu >
+${garis + kotak} ${prefix}lirik [NEW] < judul lagu >
 ${garis + kotak} ${prefix}wikipedia < query >
 ${garis + kotak} ${prefix}kbbi < query >
 ${garis + kotak} ${prefix}kodepos < nama kota >
@@ -1080,10 +1109,8 @@ ${atas}
 ${bates} *TO MENU* 🔘
 ${garis + kotak} ${prefix}img2url < Reply Foto >
 ${garis + kotak} ${prefix}tourl < Reply Foto >
-${garis + kotak} ${prefix}tovideo < ReplyStikerGif >
 ${garis + kotak} ${prefix}toimg < ReplyStiker >
 ${garis + kotak} ${prefix}tomp3 < ReplyVideo >
-${garis + kotak} ${prefix}emoji2png < Emoji >
 ${bawah}
 
 ${atas}
@@ -1092,6 +1119,22 @@ ${garis + kotak} ${prefix}bass < ReplyAudio/Vn >
 ${garis + kotak} ${prefix}balik < ReplyAudio/Vn >
 ${garis + kotak} ${prefix}gemuk < ReplyAudio/Vn >
 ${garis + kotak} ${prefix}robot < ReplyAudio/Vn >
+${bawah}
+
+${atas}
+${bates} _NEW_ *HEWAN MENU* 🦴
+${garis + kotak} ${prefix}kucing
+${garis + kotak} ${prefix}dog
+${garis + kotak} ${prefix}fox
+${garis + kotak} ${prefix}burung
+${garis + kotak} ${prefix}panda
+${garis + kotak} ${prefix}redpanda
+${garis + kotak} ${prefix}koala
+${bawah}
+
+${atas}
+${bates} _NEW_ *ISLAM MENU* ☪️
+${garis + kotak} ${prefix}jadwalsolat <nama lokasi>
 ${bawah}
 
 ${atas}
@@ -1144,6 +1187,73 @@ ${garis + kotak} ${prefix}chalkboard <2 text>
 ${bawah}
 
 ${atas}
+${bates} _NEW_ *NSFW MENU* ⚔️
+${garis + kotak} ${prefix}sfwwallpaper
+${garis + kotak} ${prefix}nsfwfutanari
+${garis + kotak} ${prefix}nsfwtrap
+${garis + kotak} ${prefix}nsfwboobs
+${garis + kotak} ${prefix}nsfwavatar
+${garis + kotak} ${prefix}nsfwanal
+${garis + kotak} ${prefix}nsfwcumsluts
+${garis + kotak} ${prefix}nsfwbj
+${garis + kotak} ${prefix}nsfwyuri
+${garis + kotak} ${prefix}nsfwtits
+${garis + kotak} ${prefix}nsfwgirlsolo
+${garis + kotak} ${prefix}nsfwpussyart
+${garis + kotak} ${prefix}nsfwkemonomimi
+${garis + kotak} ${prefix}nsfwkitsune
+${garis + kotak} ${prefix}nsfwneko
+${garis + kotak} ${prefix}nsfwlesbian
+${garis + kotak} ${prefix}nsfwerokitsune
+${garis + kotak} ${prefix}nsfwholoero
+${garis + kotak} ${prefix}nsfwholo
+${garis + kotak} ${prefix}nsfwclassic
+${garis + kotak} ${prefix}nsfwcumsluts
+${garis + kotak} ${prefix}nsfwyuri
+${garis + kotak} ${prefix}nsfwhentai
+${garis + kotak} ${prefix}nsfwketa
+${garis + kotak} ${prefix}nsfwkuni
+${garis + kotak} ${prefix}nsfwfemdom
+${garis + kotak} ${prefix}nsfwerokemonomimi
+${garis + kotak} ${prefix}nsfweroneko
+${garis + kotak} ${prefix}nsfwcumarts
+${garis + kotak} ${prefix}nsfwblowjob
+${garis + kotak} ${prefix}nsfwspank
+${garis + kotak} ${prefix}nsfwero
+${garis + kotak} ${prefix}nsfwhentaigif
+${garis + kotak} ${prefix}nsfwnekogif
+${garis + kotak} ${prefix}nsfwgirlsologif
+${garis + kotak} ${prefix}nsfwfeetgif
+${bawah}
+
+${atas}
+${bates} _NEW_ *SFW MENU* 🗡️
+${garis + kotak} ${prefix}sfwsmug
+${garis + kotak} ${prefix}sfwbaka
+${garis + kotak} ${prefix}sfwslap
+${garis + kotak} ${prefix}sfwpoke
+${garis + kotak} ${prefix}sfwneko
+${garis + kotak} ${prefix}sfwnekogif
+${garis + kotak} ${prefix}sfwlizard
+${garis + kotak} ${prefix}sfwmeow
+${garis + kotak} ${prefix}sfwkiss
+${garis + kotak} ${prefix}sfwhug
+${garis + kotak} ${prefix}sfwfeed
+${garis + kotak} ${prefix}sfwfixgril
+${garis + kotak} ${prefix}sfwavatar
+${garis + kotak} ${prefix}sfwwaifu
+${garis + kotak} ${prefix}sfwgoose
+${garis + kotak} ${prefix}sfwgecg
+${garis + kotak} ${prefix}sfwwallpaper
+${garis + kotak} ${prefix}sfwwoof
+${garis + kotak} ${prefix}sfwholo
+${garis + kotak} ${prefix}sfwkemonomimi
+${garis + kotak} ${prefix}sfwcuddle
+${garis + kotak} ${prefix}sfwtickle
+${garis + kotak} ${prefix}sfwpat
+${bawah}
+
+${atas}
 ${bates} *NSFW MENU* 🔐
 ${garis + kotak} ${prefix}ass
 ${garis + kotak} ${prefix}ahegao
@@ -1176,12 +1286,12 @@ ${garis + kotak} ${prefix}japan
 ${garis + kotak} ${prefix}indonesia
 ${garis + kotak} ${prefix}thailand
 ${garis + kotak} ${prefix}china
-${garis + kotak} ${prefix}hijaber
-${garis + kotak} ${prefix}santuy
-${garis + kotak} ${prefix}ukhti
-${garis + kotak} ${prefix}bocil
-${garis + kotak} ${prefix}ghea
-${garis + kotak} ${prefix}rika
+${garis + kotak} ${prefix}62 [NEW]
+${garis + kotak} ${prefix}santuy [NEW]
+${garis + kotak} ${prefix}ukhti [NEW]
+${garis + kotak} ${prefix}bocil [NEW]
+${garis + kotak} ${prefix}ghea [NEW]
+${garis + kotak} ${prefix}rikagusriani [NEW]
 ${bawah}
 
 ${atas}
@@ -1322,14 +1432,6 @@ ${garis + kotak} ${prefix}bapercek
 ${bawah}
 
 ${atas}
-${bates} *STICKER MENU* 📌
-${garis + kotak} ${prefix}pmeme < reply foto text1|text2 >
-${garis + kotak} ${prefix}smeme < reply stiker text1|text2 >
-${garis + kotak} ${prefix}sticker < ReplyFoto >
-${garis + kotak} ${prefix}sgif < ReplyVideo >
-${bawah}
-
-${atas}
 ${bates} *OTHER MENU* 🔓
 ${garis + kotak} ${prefix}donasi
 ${garis + kotak} ${prefix}script
@@ -1342,10 +1444,12 @@ ${garis + kotak} ${prefix}rules
 ${garis + kotak} ${prefix}snk
 ${bawah}
 
+
+
 ║▌│█║▌│ █║▌│█│║▌║
 ║▌│█║▌│ █║▌│█│║▌║
 
-    © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}` }, [{buttonId:`!owner`,buttonText:{displayText:'I LOVE YOU'},type:1},{buttonId:`!donasi`,buttonText:{displayText:'YOU TO'},type:1},], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod],}})
+    © *${NamaOwner}*`, fs.readFileSync('./media/pdf.jpg'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`}, [{buttonId:`!owner`,buttonText:{displayText:'Owner❤️'},type:1},{buttonId:`!donasi`,buttonText:{displayText:'Donasi🗿'},type:1},], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod],}})
             break
 
 
@@ -1403,28 +1507,28 @@ _Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
 })
             break
 case 'mediafire':
-if (!isPremium) return reply('Fitur Ini Khusus User Premium Ingin Beli Premium?Hubungi Owner Yang Bersangkutan')
 if (!q) return
 reply(mess.wait)
-awokkk = await fetchJson(`https://rest2yeriko.herokuapp.com/api/mediafire/?url=${q}&apikey=Yuzzu`)
+awokkk = await fetchJson(`https://api.dapuhy.xyz/api/socialmedia/mediafire?url=${q}&apikey=rcYersFHsr`)
 sendFileFromUrl(awokkk.result.link, document, {mimetype: awokkk.result.mime, filename: awokkk.result.nama, quoted: mek})
 break
-case 'tiktok':
-if (!q) return reply('Link Tiktok Nya Mana:v')
+
+case 'tek':
+if (!q) return reply('f')
 reply(mess.wait)
 tthb = fs.readFileSync('./media/tiktok.jpg')
 tiktok0 = ``
-sendButLocation(from, tiktok0, "Pilih Type Di Bawah Ini", {jpegThumbnail:tthb,name:""}, [{buttonId:`#ttnowm ${q}`,buttonText:{displayText:'NO WM'},type:1},{buttonId:`#ttwm ${q}`,buttonText:{displayText:'WM'},type:1}])
+sendButLocation(from, tiktok0, "Pilih Type Di Bawah Ini", {jpegThumbnail:tthb,name:""}, [{buttonId:`${prefix}ttnowm ${q}`,buttonText:{displayText:'NO WM'},type:1},{buttonId:`${prefix}ttwm ${q}`,buttonText:{displayText:'WM'},type:1}])
 break
-case 'ttnowm': 
-if (!isPremium) return reply('Fitur Ini Khusus User Premium Ingin Beli Premium?Hubungi Owner Yang Bersangkutan\nUntuk Download Tiktok User Free Hanya Bisa Akses TiktokWm')
+
+case 'tiktok': 
 if (!q) return
 reply(mess.wait)
 tiktok1 = await fetchJson(`https://rest2yeriko.herokuapp.com/api/tiktok/?url=${q}&apikey=Yuzzu`)
 tiktok4 = await getBuffer(tiktok1.result.nowatermark)
-dha.sendMessage(from, tiktok4, video, {quoted: mek, caption:'Done'})
+dha.sendMessage(from, tiktok4, video, {quoted: mek, caption:'ғᴏʟʟᴏᴡ ɪɢ : @𝚒𝚝𝚜𝚌𝚑𝚊𝚗𝚍𝚛𝚊_28'})
 break
-case 'ttwm':
+case 'tiktokwatermark':
 if (!q) return
 reply(mess.wait)
 tiktok3 = await fetchJson(`https://rest2yeriko.herokuapp.com/api/tiktok/?url=${q}&apikey=Yuzzu`)
@@ -1470,6 +1574,46 @@ case 'lirik':
             let song = await hx.lirik(q)
             sendMediaURL(from,song.thumb,song.lirik)
             break
+case 'artinama':
+if (!q) return reply('contoh: *!artinama* radja') 
+b = args.join(" ")
+anu = await fetchJson(`https://api.dapuhy.xyz/api/fun/artinama?nama=${q}&apikey=rcYersFHsr`)
+bu =`${anu.result}`
+reply(bu)
+break
+
+case 'hilih':
+if (!q) return reply('contoh: *!hilih* Kamu Lagi Apa?') 
+b = args.join(" ")
+anu = await fetchJson(`https://api.dapuhy.xyz/api/vokal/hilih?kata=${q}&apikey=rcYersFHsr`)
+bu =`${anu.result}`
+reply(bu)
+break
+
+case 'halah':
+if (!q) return reply('contoh: *!halah* Kamu Lagi Apa?') 
+radja = args.join(" ")
+itschandra = await fetchJson(`https://api.dapuhy.xyz/api/vokal/halah?kata=${q}&apikey=rcYersFHsr`)
+botz =`${itschandra.result}`
+reply(botz)
+break
+
+case 'holoh':
+if (!q) return reply('contoh: *!holoh* Kamu Lagi Apa?') 
+radja = args.join(" ")
+itschandra = await fetchJson(`https://api.dapuhy.xyz/api/vokal/holoh?kata=${q}&apikey=rcYersFHsr`)
+botz =`${itschandra.result}`
+reply(botz)
+break
+
+case 'huluh':
+if (!q) return reply('contoh: *!huluh* Kamu Lagi Apa?') 
+radja = args.join(" ")
+itschandra = await fetchJson(`https://api.dapuhy.xyz/api/vokal/huluh?kata=${q}&apikey=rcYersFHsr`)
+botz =`${itschandra.result}`
+reply(botz)
+break
+
 case 'pinterest':
 if (!q) return
 reply(mess.wait)
@@ -1477,6 +1621,55 @@ foto = await fetchJson(`https://rest2yeriko.herokuapp.com/api/pinterest/?text=${
 fotoget = await getBuffer(foto.result)
 sendButImage(from, `Foto *${q}* Nya Kak`, `Lagi? Klik Button Nya Kak⬇️`, fotoget, [{buttonId: `${prefix}pinterest ${q}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},])
 break
+
+case 'dog':  
+reply(mess.wait)
+anu = await fetchJson(`https://some-random-api.ml/img/dog`)
+anu1 = await getBuffer(anu.link)
+dha.sendMessage(from, anu1, image, {caption: `Lucu kan *ANJING* nya mirip Kamu 😚😚`, quoted: mek})
+break
+
+case 'red':  
+reply(mess.wait)
+anu = await fetchJson(`https://some-random-api.ml/img/red_panda`)
+anu1 = await getBuffer(anu.link)
+dha.sendMessage(from, anu1, image, {caption: `Lucu kan *RED PANDA* nya mirip Kamu 😚😚`, quoted: mek})
+break
+
+case 'burung':  
+reply(mess.wait)
+anu = await fetchJson(`https://some-random-api.ml/img/bird`)
+anu1 = await getBuffer(anu.link)
+dha.sendMessage(from, anu1, image, {caption: `Lucu kan *BURUNG* nya mirip Kamu 😚😚`, quoted: mek})
+break
+
+case 'fox':  
+reply(mess.wait)
+anu = await fetchJson(`https://some-random-api.ml/img/fox`)
+anu1 = await getBuffer(anu.link)
+dha.sendMessage(from, anu1, image, {caption: `Lucu kan *FOX* nya mirip Kamu 😚😚`, quoted: mek})
+break
+
+case 'koala':  
+reply(mess.wait)
+anu = await fetchJson(`https://some-random-api.ml/img/koala`)
+anu1 = await getBuffer(anu.link)
+dha.sendMessage(from, anu1, image, {caption: `Lucu kan *KOALA* nya mirip Kamu 😚😚`, quoted: mek})
+break
+
+case 'kucing':  
+reply(mess.wait)
+anu = await fetchJson(`https://some-random-api.ml/img/cat`)
+anu1 = await getBuffer(anu.link)
+dha.sendMessage(from, anu1, image, {caption: `Lucu kan *KUCING* nya mirip Kamu 😚😚`, quoted: mek})
+break
+       case 'panda':  
+reply(mess.wait)
+anu = await fetchJson(`https://some-random-api.ml/img/panda`)
+anu1 = await getBuffer(anu.link)
+dha.sendMessage(from, anu1, image, {caption: `Lucu kan *PANDA* nya mirip Kamu 😚😚`, quoted: mek})
+                   break
+
 case 'wiki': case 'wikipedia':
 if (!q) return
 reply(mess.wait)
@@ -1484,6 +1677,7 @@ ilmu = await fetchJson(`https://rest2yeriko.herokuapp.com/api/wikipedia?search=$
 ilmu2 = `*Nama* : ${q}\n*Hasil* : ${ilmu.result.result}`
 reply(ilmu2)
 break
+
 case 'kbbi':
 if (!q) return
 reply(mess.wait)
@@ -1505,7 +1699,6 @@ ilmu6 += `${buletan} *POSTALCODE* : ${nyz.postalcode}\n\n`
 }
 reply(ilmu6)
 break
-
 
 //═════════════════════════ [ ADMIN MENU ] ═════════════════════════
 //═════════════════════════ [ COPAS AJA ] ═════════════════════════
@@ -2016,7 +2209,7 @@ case 'bass':
                mediaaa = await dha.downloadAndSaveMediaMessage(encmediaaa)
                a = await webp2gifFile(mediaaa)
                mp4 = await getBuffer(a.result)
-               dha.sendMessage(from, mp4, video, {mimetype: 'video/mp4', quoted: mek, caption: mess.success})
+               dha.sendMessage(from, mp4, video, {mimetype: 'video/mp4/jpg', quoted: mek, caption: mess.success})
                fs.unlinkSync(mediaaa)
                } else {
                reply(mess.wrongFormat)
@@ -2046,7 +2239,7 @@ emoji = encodeURI(emoji[0])
 } catch {
 emoji = encodeURI(emoji)
 }
-bufferg = await getBuffer(`https://api/dapuhy.xyz/api/maker/emojitopng?emoji=${emoji}&apikey=${apidapa}`)
+bufferg = await getBuffer(`https://api.dapuhy.xyz/api/maker/emojitopng?emoji=${q}&apikey=rcYersFHsr`)
 dha.sendMessage(from, bufferg, image, {quoted: mek})
 break
     case 'potomeme': case 'pmeme':
@@ -2265,12 +2458,93 @@ break
 //═════════════════════════ [ COPAS AJA ] ════════════════════════
 //═════════════════════════ [ API GW ] ═════════════════════════
 
-case 'ass': case 'ahegao': case 'bdsm': case 'blowjob': case 'cuckold': case 'cum': case 'ero': case 'femdom': case 'foot': case 'gangbang': case 'glasses': case 'hentai': case 'jahy': case 'masturbation': case 'neko': case 'orgy': case 'panties': case 'pussy': case 'thighs': case 'yuri': 
+case 'ass': case 'ahegao': case 'bdsm': case 'blowjob': case 'cuckold': case 'cum': case 'ero': case 'femdom': case 'foot': case 'gangbang': case 'glasses': case 'hentai': case 'jahy': case 'masturbation': case 'orgy': case 'panties': case 'pussy': case 'thighs': case 'yuri': 
 if (!isPremium) return reply('Fitur Ini Khusus User Premium Ingin Beli Premium?Hubungi Owner Yang Bersangkutan')
 reply(mess.wait)
 bikep = await fetchJson(`https://rest2yeriko.herokuapp.com/api/nsfw/${command}?apikey=Yuzzu`)
 bokep = await getBuffer(bikep.result)
 sendButImage(from, `JANGAN KE WC DULU BRO\nDOSA TANGGUNG USER SENDIRI`, `MAU LAGI?KLIK BUTTON DI BAWAH⬇️⬇️`, bokep, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},]);
+break
+
+case 'sfwwallpaper':
+if(!q)
+reply(mess.wait)
+cantik = await getBuffer(`https://api.dapuhy.xyz/api/sfw/${command}?apikey=rcYersFHsr`)
+sendButImage(from, `ini dia *${command}* kak !!`, `LAGI? KLIK BUTTON DI BAWAH⬇️⬇️`, cantik, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},])
+break
+
+case 'nsfwneko':
+case 'nsfwlesbian':
+case 'nsfwkuni':
+case 'nsfwcumsluts':
+case 'nsfwclassic':
+case 'nsfwboobs':
+case 'nsfwbj':
+case 'nsfwanal':
+case 'nsfwavatar':
+case 'nsfwyuri':
+case 'nsfwtrap':
+case 'nsfwtits':
+case 'nsfwgirlsolo':
+case 'nsfwpussyart':
+case 'nsfwkemonomimi':
+case 'nsfwkitsune':
+case 'nsfwketa':
+case 'nsfwholo':
+case 'nsfwholoero':
+case 'nsfwhentai':
+case 'nsfwfutanari':
+case 'nsfwfemdom':
+case 'nsfwero':
+case 'nsfwerokitsune':
+case 'nsfwerokemonomimi':
+case 'nsfweroneko':
+case 'nsfwcumarts':
+case 'nsfwblowjob':
+case 'nsfwspank':
+if(!q)
+reply(mess.wait)
+cantik = await getBuffer(`https://api.dapuhy.xyz/api/nsfw/${command}?apikey=rcYersFHsr`)
+sendButImage(from, `ini dia *${command}* nya kak !!`, `LAGI? KLIK BUTTON DI BAWAH⬇️⬇️`, cantik, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},])
+break
+
+case 'sfwsmug':
+case 'sfwbaka':
+case 'sfwtickle':
+case 'sfwslap':
+case 'sfwpoke':
+case 'sfwpat':
+case 'sfwneko':
+case 'sfwnekogif':
+case 'sfwmeow':
+case 'sfwlizard':
+case 'sfwkiss':
+case 'sfwhug':
+case 'sfwfixgril':
+case 'sfwfeed':
+case 'sfwcuddle':
+case 'sfwholo':
+case 'sfwkemonomimi':
+case 'sfwwallpaper':
+case 'sfwwoof':
+case 'sfwgoose':
+case 'sfwgecg':
+case 'sfwwaifu':
+case 'sfwavatar':
+if(!q)
+reply(mess.wait)
+cantik = await getBuffer(`https://api.dapuhy.xyz/api/sfw/${command}?apikey=rcYersFHsr`)
+sendButImage(from, `ini dia *${command}* nya kak !!`, `LAGI? KLIK BUTTON DI BAWAH⬇️⬇️`, cantik, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},])
+break
+
+case 'nsfwhentaigif':
+case 'nsfwnekogif':
+case 'nsfwgirlsologif':
+case 'nsfwfeetgif':
+if(!q)
+reply(mess.wait)
+cantik = await getBuffer(`https://api.dapuhy.xyz/api/nsfw/${command}?apikey=rcYersFHsr`)
+sendButVideo(from, `ini dia *${command}* kak !!`, `LAGI? KLIK BUTTON DI BAWAH⬇️⬇️`, cantik, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},])
 break
 
 //═════════════════════════ [ ASUPAN MENU ] ═════════════════════════
@@ -2284,14 +2558,63 @@ cantok = await getBuffer(cantik.result.url)
 sendButImage(from, `Cewe *${command}* Wangy Wangy`, `LAGI? KLIK BUTTON DI BAWAH⬇️⬇️`, cantok, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},])
 break
 
-case 'hijaber': case 'santuy': case 'ukhti': case 'bocil': case 'ghea': case 'rikagusriani':
-if (!isPremium) return reply('Fitur Ini Khusus User Premium Ingin Beli Premium?Hubungi Owner Yang Bersangkutan')
-ini = await fetchJson(`https://kagoya-api.herokuapp.com/api/asupan/hijaber`)
+case '62':
+if (!q)
 reply(mess.wait)
-buffer = await getBuffer(ini.result.url)
-sendButVideo(from, `*${command}* Mantaf:v`, `Mau Lagi?Klik Button Di Bawah⬇️`, buffer, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️️`,},type: 1,},]);
+buffer = await getBuffer (`https://api.dapuhy.xyz/api/asupan/asupan?apikey=rcYersFHsr`)
+sendButVideo(from, `*${command}* MantafKan:v 🤣🤣`, `Mau Lagi?Klik Button Di Bawah⬇️`, buffer, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️️`,},type: 1,},]);
 break
 
+case 'santuy':
+if (!q)
+reply(mess.wait)
+buffer = await getBuffer (`https://api.dapuhy.xyz/api/asupan/asupansantuy?apikey=rcYersFHsr`)
+sendButVideo(from, `*${command}* MantafKan:v 🤣🤣`, `Mau Lagi?Klik Button Di Bawah⬇️`, buffer, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️️`,},type: 1,},]);
+break
+
+case 'bocil':
+if (!q)
+reply(mess.wait)
+buffer = await getBuffer (`https://api.dapuhy.xyz/api/asupan/asupanbocil?apikey=rcYersFHsr`)
+sendButVideo(from, `*${command}* MantafKan:v 🤣🤣`, `Mau Lagi?Klik Button Di Bawah⬇️`, buffer, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️️`,},type: 1,},]);
+break
+
+case 'ukhti':
+if (!q)
+reply(mess.wait)
+buffer = await getBuffer (`https://api.dapuhy.xyz/api/asupan/asupanukhty?apikey=rcYersFHsr`)
+sendButVideo(from, `*${command}* MantafKan:v 🤣🤣`, `Mau Lagi?Klik Button Di Bawah⬇️`, buffer, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️️`,},type: 1,},]);
+break
+
+case 'rikagusriani':
+if (!q)
+reply(mess.wait)
+buffer = await getBuffer (`https://api.dapuhy.xyz/api/asupan/asupanrikagusriani?apikey=rcYersFHsr`)
+sendButVideo(from, `*${command}* MantafKan:v 🤣🤣`, `Mau Lagi?Klik Button Di Bawah⬇️`, buffer, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️️`,},type: 1,},]);
+break
+
+case 'ghea':
+if (!q)
+reply(mess.wait)
+buffer = await getBuffer (`https://api.dapuhy.xyz/api/asupan/asupanghea?apikey=rcYersFHsr`)
+sendButVideo(from, `*${command}* MantafKan:v 🤣🤣`, `Mau Lagi?Klik Button Di Bawah⬇️`, buffer, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️️`,},type: 1,},]);
+break
+
+  case 'jadwalsholat':  
+			       
+   if (!q)return reply(`[❗] Example :\n !jadwalsholat *makassar*`)  
+                   reply(mess.wait)
+                   F = body.slice(14)
+                   anu = await fetchJson(`https://docs-jojo.herokuapp.com/api/jadwalshalat?daerah=${F}`)                   
+                   anu1 = `➻ *IMSYAK* : ${anu.Imsyak}\n`
+                   anu1 += `➻ *SUBUH* : ${anu.Subuh}\n`
+                   anu1 += `➻ *DHUHA* : ${anu.Dhuha}\n`
+                   anu1 += `➻ *DZUHUR* : ${anu.Dzuhur}\n`
+                   anu1 += `➻ *ASHAR* : ${anu.Ashar}\n`
+                   anu1 += `➻ *MAGRHRIB* : ${anu.Maghrib}\n`
+                   anu1 += `➻ *ISYA* : ${anu.Isya}\n` 
+                   reply(anu1)
+                   break
 //═════════════════════════ [ OTHER MENU ] ═════════════════════════
 //═════════════════════════ [ COPAS AJA ] ═════════════════════════
 //═════════════════════════ [ NO API ] ═════════════════════════
