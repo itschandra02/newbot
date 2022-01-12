@@ -860,7 +860,7 @@ sendEphemeral: false,
 				if (!isAntiLink) return
 				if (isGroupAdmins) return reply ('Admin Mah Bebas')
 				var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-				reply(` *「 GROUP LINK DETECTOR 」*\nAwokawok Ngemis Member Gc😍\nByee ${sender.split("@")[0]}`)
+				reply(` *「 GROUP LINK DETECTOR 」*\nJangsn Ngemis Member Gc Ya !!!\nByee ${sender.split("@")[0]}`)
 				setTimeout(() => {
 				dha.groupRemove(from, [kic]).catch((e) => { reply(`BOT HARUS JADI ADMIN`) })
 				}, 3000)
@@ -1044,7 +1044,7 @@ ${bawah}
 
 ${atas}
 ${bates} _NEW_ *RANDOM IMAGE* 🖼️
-${garis + kotak} ${prefix}ppcoupl
+${garis + kotak} ${prefix}ppcouple
 ${garis + kotak} ${prefix}loli
 ${garis + kotak} ${prefix}meme
 ${bawah}
