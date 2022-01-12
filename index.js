@@ -1050,7 +1050,7 @@ ${garis + kotak} ${prefix}meme
 ${bawah}
 
 ${atas}
-${bates} _NEW_ *RANDOM TEXT * 📃
+${bates} _NEW_ *RANDOM TEXT* 📃
 ${garis + kotak} ${prefix}quotes
 ${garis + kotak} ${prefix}quotesyt
 ${garis + kotak} ${prefix}quotesislami
