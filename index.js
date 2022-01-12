@@ -1022,24 +1022,56 @@ ${bawah}
 `            
 Sendbutdocument(from, allmenuuu, `${atas}
 ${bates} _NEW_ *FITUR* 🎉
-${garis + kotak} ${prefix}artinama [NEW] < nama >
-${garis + kotak} ${prefix}mediafire [NEW] < Link >
-${garis + kotak} ${prefix}lirik [NEW] < judul lagu >
-${garis + kotak} ${prefix}62 [NEW]
-${garis + kotak} ${prefix}santuy [NEW]
-${garis + kotak} ${prefix}ukhti [NEW]
-${garis + kotak} ${prefix}bocil [NEW]
-${garis + kotak} ${prefix}ghea [NEW]
-${garis + kotak} ${prefix}rikagusriani [NEW]
+${garis + kotak} ${prefix}artinama< nama >
+${garis + kotak} ${prefix}mediafire < Link >
+${garis + kotak} ${prefix}lirik < judul lagu >
+${garis + kotak} ${prefix}62
+${garis + kotak} ${prefix}santuy
+${garis + kotak} ${prefix}ukhti
+${garis + kotak} ${prefix}bocil
+${garis + kotak} ${prefix}ghea 
+${garis + kotak} ${prefix}rikagusriani
 ${bawah}
 
 ${atas}
 ${bates} _NEW_ *FITUR VOKAL* 💢
-${garis + kotak} ${prefix}hilih [NEW]
-${garis + kotak} ${prefix}huluh [NEW]
-${garis + kotak} ${prefix}halah [NEW]
-${garis + kotak} ${prefix}holoh [NEW]
-${garis + kotak} ${prefix}heleh [NEW]
+${garis + kotak} ${prefix}hilih
+${garis + kotak} ${prefix}huluh
+${garis + kotak} ${prefix}halah
+${garis + kotak} ${prefix}holoh
+${garis + kotak} ${prefix}heleh
+${bawah}
+
+${atas}
+${bates} _NEW_ *RANDOM IMAGE* 🖼️
+${garis + kotak} ${prefix}ppcoupl
+${garis + kotak} ${prefix}loli
+${garis + kotak} ${prefix}meme
+${bawah}
+
+${atas}
+${bates} _NEW_ *RANDOM TEXT * 📃
+${garis + kotak} ${prefix}quotes
+${garis + kotak} ${prefix}quotesyt
+${garis + kotak} ${prefix}quotesislami
+${garis + kotak} ${prefix}quoteskanye
+${garis + kotak} ${prefix}katasindiran
+${garis + kotak} ${prefix}pantun
+${garis + kotak} ${prefix}katailham
+${garis + kotak} ${prefix}katabucin
+${garis + kotak} ${prefix}katabijak
+${bawah}
+
+${atas}
+${bates} _NEW_ *INFO* ℹ️
+${garis + kotak} ${prefix}infogempa
+${bawah}
+
+${atas}
+${bates} _NEW_ *FUN* 🥴
+${garis + kotak} ${prefix}artinama
+${garis + kotak} ${prefix}artimimpi
+${garis + kotak} ${prefix}cerpen
 ${bawah}
 
 ${atas}
@@ -1536,6 +1568,93 @@ tiktok5 = await getBuffer(tiktok3.result.watermark)
 dha.sendMessage(from, tiktok5, video, {quoted: mek, caption:'Done'})
 break
 
+case 'ppcp':
+case 'ppcouple':
+anu = await fetchJson(`https://api.dapuhy.xyz/api/randomimage/couple?apikey=rcYersFHsr`)
+buff1 = await getBuffer (anu.result.pria)
+dha.sendMessage(from, buff1, image, {quoted: mek, caption: '_Nih kak cowoknya_♂️'})
+buff2 =await getBuffer (anu.result.wanita)
+dha.sendMessage(from, buff2, image, {quoted: mek, caption: '_Nih kak ceweknya_♀️'})
+break
+
+case 'loli': 
+reply(mess.wait)
+anu = await fetchJson(`https://apidhani.herokuapp.com/api/anime/loli?apikey=NisaaCantik`)
+loli = await getBuffer(anu.result)
+dha.sendMessage(from, loli, image, {quoted: mek, caption: '*Nih Kak* _Loli_ nya '})
+break
+
+case 'meme': 
+reply(mess.wait)
+anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/meme?apikey=NisaaCantik`)
+meme = await getBuffer(anu.result.url)
+dha.sendMessage(from, meme, image, {quoted: mek, caption: '*Nih Kak* _Meme_ nya'})
+break
+
+case 'mp3':
+if (args.length < 1) return reply("Masukkan url youtube")
+url = args.join(' ')
+anu = await fetchJson(`https://apidhani.herokuapp.com/api/download/ytmp3?url=${q}&apikey=NisaaCantik`)
+ytmp3 = await getBuffer(anu.result.url)
+reply(`_audio sedang diproses, silahkan tunggu beberapa saat lagi_`)
+dha.sendMessage(from, ytmp3, audio, {mimetype:"audio/mp4", quoted:mek})
+break
+
+case 'quotes':
+anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/quotes?apikey=NisaaCantik`)
+dhani = (anu.result.quotes)
+sendButMessage(from, dhani, `Klik *NEXT* Untuk Ke Quotes Selanjutnya`, [
+{
+buttonId: `${prefix + command}`,
+buttonText: {
+displayText: `NEXT➡️`,
+},
+type: 1,
+},]);
+break
+case 'pantun':
+case 'katabijak':
+case 'katailham':
+case 'katasindiran':
+case 'katabucin':
+oke = await fetchJson(`https://apidhani.herokuapp.com/api/random/${command}?apikey=NisaaCantik`)
+dhani = (oke.result.anu)
+sendButMessage(from, dhani, `Klik *NEXT* Untuk Ke ${command} Selanjutnya`, [
+{
+buttonId: `${prefix + command}`,
+buttonText: {
+displayText: `NEXT➡️`,
+},
+type: 1,
+},]);
+break
+
+case 'quotesislami':
+anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/quotes/muslim?apikey=NisaaCantik`)
+dhani = (anu.result.text_id)
+sendButMessage(from, dhani, `Klik *NEXT* Untuk Ke Quotes Selanjutnya`, [
+{
+buttonId: `${prefix + command}`,
+buttonText: {
+displayText: `NEXT➡️`,
+},
+type: 1,
+},]);
+break
+
+case 'quoteskanye':
+anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/quotes/kanye?apikey=NisaaCantik`)
+dhani = (anu.result.text_id)
+sendButMessage(from, dhani, `Klik *NEXT* Untuk Ke Quotes Selanjutnya`, [
+{
+buttonId: `${prefix + command}`,
+buttonText: {
+displayText: `NEXT➡️`,
+},
+type: 1,
+},]);
+break;
+
 //═════════════════════════ [ SEARCH MENU ] ═════════════════════════
 //═════════════════════════ [ COPAS AJA ] ═════════════════════════
 //═════════════════════════ [ API RANDOM ] ═════════════════════════
@@ -1582,6 +1701,23 @@ bu =`${anu.result}`
 reply(bu)
 break
 
+case 'artimimpi':
+if (!q) return reply('contoh: *!artimimpi* dikejar ular') 
+b = args.join(" ")
+anu = await fetchJson(`https://api.dapuhy.xyz/api/fun/artimimpi?mimpi=${q}&apikey=rcYersFHsr`)
+bu =`${anu.result}`
+reply(bu)
+break
+
+case 'cerpen': 
+anu = await fetchJson(`https://docs-jojo.herokuapp.com/api/cerpen`)                   
+                   anu1 = `➻ *JUDUL* : ${anu.result.title}\n`
+                   anu1 += `➻ *PENGARANG* : ${anu.result.pengarang}\n` 
+                   anu1 += `➻ *KATEGORI* : ${anu.result.kategori}\n`
+                   anu1 += `➻ *CERPEN* : ${anu.result.cerpen}\n`
+                   reply(anu1)
+                   break           
+                   
 case 'hilih':
 if (!q) return reply('contoh: *!hilih* Kamu Lagi Apa?') 
 b = args.join(" ")
@@ -2508,6 +2644,20 @@ cantik = await getBuffer(`https://api.dapuhy.xyz/api/nsfw/${command}?apikey=rcYe
 sendButImage(from, `ini dia *${command}* nya kak !!`, `LAGI? KLIK BUTTON DI BAWAH⬇️⬇️`, cantik, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},])
 break
 
+case 'qoutesyt':
+if(!q)
+reply(`Mohon Menunggu.....`)
+cantik = await getBuffer(`https://api.dapuhy.xyz/api/randomimage/quotesyt?apikey=rcYersFHsr`)
+sendButImage(from, `ini dia *${command}* nya kak !!`, `LAGI? KLIK BUTTON DI BAWAH⬇️⬇️`, cantik, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},])
+break
+
+case 'darkjokes':
+if(!q)
+reply(mess.wait)
+cantik = await getBuffer(`https://api.dapuhy.xyz/api/randomimage/darkjokes?apikey=rcYersFHsr`)
+sendButImage(from, `ini dia *${command}* nya kak !!`, `LAGI? KLIK BUTTON DI BAWAH⬇️⬇️`, cantik, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️`,},type: 1,},])
+break
+
 case 'sfwsmug':
 case 'sfwbaka':
 case 'sfwtickle':
@@ -2591,6 +2741,15 @@ if (!q)
 reply(mess.wait)
 buffer = await getBuffer (`https://api.dapuhy.xyz/api/asupan/asupanrikagusriani?apikey=rcYersFHsr`)
 sendButVideo(from, `*${command}* MantafKan:v 🤣🤣`, `Mau Lagi?Klik Button Di Bawah⬇️`, buffer, [{buttonId: `${prefix}${command}`,buttonText: {displayText: `AGAIN➡️️`,},type: 1,},]);
+break
+
+case 'infogempa':
+if (!q) 
+reply(mess.wait)
+anu = await fetchJson (`https://app-botpri.herokuapp.com/api/info/gempa?apikey=Fxc7`)
+aku = `INFO GEMPA\n\n*Waktu: ${anu.result.Waktu}*\n*Lintang: ${anu.result.Lintang}*\n*Bujur: ${anu.result.Bujur}*\n*Kekuatan: ${anu.result.Magnitudo}*\n*Kedalaman: ${anu.result.Kedalaman}*\n*Wilayah: ${anu.result.Wilayah}*`
+buffer = await getBuffer (anu.result.Map)
+dha.sendMessage(from, buffer, image, {quoted: mek, caption: aku})
 break
 
 case 'ghea':
@@ -3210,6 +3369,16 @@ dha.sendMessage(from, game3, image, { quoted:mek, caption: 'Waktu 60detik'})
 setTimeout( () => { 
 reply(`_Waktu Habis_\n${kotak} Jawaban :\n${game2.result.result.jawaban}`)
 }, 60000)
+break
+
+case 'siapakah':
+game1 = await fetchJson (`https://api.dapuhy.xyz/api/fun/siapakah?apikey=rcYersFHsr`)
+setTimeout( () => {
+reply(`${kotak} *Pertanyaan* :\n${game1.result.result.pertanyan}\n${kotak} *Waktu* : 60detik`)
+}, 0)       
+setTimeout( () => {
+reply(`_Waktu Habis_\n${kotak} *Jawaban* :\n${game1.result.result.jawaban}`)
+}, 60000)    
 break
 //═════════════════════════ [ END ALL FITUR ] ═════════════════════════
 //═════════════════════════ [ WHATSAPP BOT BY ITSCHANDRA ] ═════════════════════════
