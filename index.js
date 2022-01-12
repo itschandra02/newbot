@@ -1629,6 +1629,20 @@ type: 1,
 },]);
 break
 
+case 'randomquotes':
+case 'qoutes':
+anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/quotes?apikey=NisaaCantik`)
+dhani = (anu.result.quotes)
+sendButMessage(from, dhani, `Klik *NEXT* Untuk Ke Quotes Selanjutnya`, [
+{
+buttonId: `${prefix + command}`,
+buttonText: {
+displayText: `NEXT ➡️`,
+},
+type: 1,
+},]);
+break
+
 case 'quotesislami':
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/quotes/muslim?apikey=NisaaCantik`)
 dhani = (anu.result.text_id)
