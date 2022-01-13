@@ -1170,6 +1170,53 @@ ${garis + kotak} ${prefix}jadwalsolat <nama lokasi>
 ${bawah}
 
 ${atas}
+${bates} _NEW_ *MAKER MENU VERSI 2* 🖼️
+${garis + kotak} ${prefix}magma <text>
+${garis + kotak} ${prefix}glossy <text>
+${garis + kotak} ${prefix}luxury <text>
+${garis + kotak} ${prefix}vintage <text>
+${garis + kotak} ${prefix}writing <text>
+${garis + kotak} ${prefix}engraved <text>
+${garis + kotak} ${prefix}holograpic <text>
+${garis + kotak} ${prefix}fabric <text>
+${garis + kotak} ${prefix}wicker <text>
+${garis + kotak} ${prefix}larva <text>
+${garis + kotak} ${prefix}toxic <text>
+${garis + kotak} ${prefix}stroberi <text>
+${garis + kotak} ${prefix}ice <text>
+${garis + kotak} ${prefix}rusty <text>
+${garis + kotak} ${prefix}koi <text>
+${garis + kotak} ${prefix}bread <text>
+${garis + kotak} ${prefix}honey <text>
+${garis + kotak} ${prefix}captain <text>
+${garis + kotak} ${prefix}gradien <text>
+${garis + kotak} ${prefix}christmas <text>
+${garis + kotak} ${prefix}3dstone <text>
+${garis + kotak} ${prefix}1917 <text>
+${garis + kotak} ${prefix}thunder2 <text>
+${garis + kotak} ${prefix}space <text>
+${garis + kotak} ${prefix}hallowen <text>
+${garis + kotak} ${prefix}blood <text>
+${garis + kotak} ${prefix}astone <text>
+${garis + kotak} ${prefix}art-papper <text>
+${garis + kotak} ${prefix}sky-tex <text>
+${garis + kotak} ${prefix}neon-devil <text>
+${garis + kotak} ${prefix}deluxe-silver <text>
+${garis + kotak} ${prefix}glue-text <text>
+${garis + kotak} ${prefix}neon-light <text>
+${garis + kotak} ${prefix}hallowen-text <text>
+${garis + kotak} ${prefix}water-color <text>
+${garis + kotak} ${prefix}multi-color <text>
+${garis + kotak} ${prefix}horor-blood <text>
+${garis + kotak} ${prefix}drop-water <text>
+${garis + kotak} ${prefix}harry-potter <text>
+${garis + kotak} ${prefix}grafity-text <text>
+${garis + kotak} ${prefix}black-pink <text>
+${garis + kotak} ${prefix}joker-logo <text>
+${garis + kotak} ${prefix}broken-glass <text>
+${bawah}
+
+${atas}
 ${bates} *MAKER MENU* 🖼️
 ${garis + kotak} ${prefix}halloween <text>
 ${garis + kotak} ${prefix}rainbow <text>
@@ -1208,14 +1255,6 @@ ${garis + kotak} ${prefix}bracelet <text>
 ${garis + kotak} ${prefix}nightmare <text>
 ${garis + kotak} ${prefix}denimembroidery <text>
 ${garis + kotak} ${prefix}lightgraffiti <text>
-${garis + kotak} ${prefix}arrowsigns  <2 text>
-${garis + kotak} ${prefix}birthdaycake <2 text>
-${garis + kotak} ${prefix}footballplayer <2 text>
-${garis + kotak} ${prefix}watercolor <2 text>
-${garis + kotak} ${prefix}neonwriting  <2 text>
-${garis + kotak} ${prefix}surfingboard <2 text>
-${garis + kotak} ${prefix}airline <2 text>
-${garis + kotak} ${prefix}chalkboard <2 text>
 ${bawah}
 
 ${atas}
@@ -1850,6 +1889,58 @@ ilmu6 += `${buletan} *POSTALCODE* : ${nyz.postalcode}\n\n`
 reply(ilmu6)
 break
 
+
+case 'art-papper':
+case 'broken-glass':
+case 'neon-light':
+case 'hallowen-text':
+case 'magma':
+case 'glossy':
+case 'water-color':
+case 'multi-color':
+case 'sky-tex':
+case 'neon-devil':
+case 'luxury':
+case 'vintage':
+case 'writing':
+case 'engraved':
+case 'glue-text':
+case 'holograpic':
+case 'deluxe-silver':
+case 'fabric':
+case 'wicker':
+case 'larva':
+case 'toxic':
+case 'stroberi':
+case 'koi':
+case 'bread':
+case 'horor-blood':
+case 'honey':
+case 'ice':
+case 'rusty':
+case 'captain':
+case 'gradien':
+case 'christmas':
+case 'drop-water':
+case 'black-pink':
+case 'harry-potter':
+case '3dstone':
+case '1917':
+case 'thunder2':
+case 'space':
+case 'joker-logo':
+case 'hallowen':
+case 'blood':
+case 'astone':
+case 'grafity-text':
+if (!q)return reply(`Teks Nya Mana ?\nContoh : ${prefix + command} Itschandra`)
+			reply(mess.wait)						
+			nyz5 = await fetchJson(`https://server-api-rey.herokuapp.com/api/textpro/${command}?text=${q}&apikey=apirey`) 
+			nyz4 = await getBuffer(nyz5.result)
+			dha.sendMessage(from, nyz4, image, {caption:`Nih *${command}* nya sudah jadi...`,quoted:mek}) 					
+			break
+			
+break
 //═════════════════════════ [ ADMIN MENU ] ═════════════════════════
 //═════════════════════════ [ COPAS AJA ] ═════════════════════════
 //═════════════════════════ [ NO API ] ═════════════════════════
@@ -2381,17 +2472,6 @@ case 'bass':
 						fs.unlinkSync(ran)
 					})
 					break
-case 'emoji2png':
-reply(mess.wait)
-emoji = args[0]
-try {
-emoji = encodeURI(emoji[0])
-} catch {
-emoji = encodeURI(emoji)
-}
-bufferg = await getBuffer(`https://api.dapuhy.xyz/api/maker/emojitopng?emoji=${q}&apikey=rcYersFHsr`)
-dha.sendMessage(from, bufferg, image, {quoted: mek})
-break
     case 'potomeme': case 'pmeme':
            if (args.length < 1) return reply(`Kirim perintah *${prefix + command}* teks atas|teks bawah`)
            if (!q.includes('|')) return reply(`Kirim perintah *${prefix + command}* teks atas|teks bawah`)
@@ -2587,21 +2667,14 @@ break
 			reply(mess.wait)						
 			nyz5 = await fetchJson(`https://myselfff.herokuapp.com/docs/textpro/${command}?text=${q}`) 
 			nyz4 = await getBuffer(nyz5.result)
-			dha.sendMessage(from, nyz4, image, {caption:`NIH KAK`,quoted:mek}) 					
+			dha.sendMessage(from, nyz4, image, {caption:`Nih *${command}* nya sudah jadi...`,quoted:mek}) 					
 			break
+			
 case 'christmas': case 'cemeterygates': case 'planebanner': case 'lovelock': case 'pendant': case 'fortunecookie': case 'airballoon': case 'einstein': case 'rugbyball': case 'lightwriting': case 'rustywriting': case 'beachsign': case 'bracelet': case 'denimembroidery': case 'nightmare': case 'neonsign': case 'lightgraffiti':
 if (!q) return reply(`Example : ${prefix + command} ${pushname}`)
 reply(mess.wait)
 makerny = await getBuffer(`https://api.dapuhy.xyz/api/photofunia/${command}?text=${q}&apikey=${apidapa}`)
-dha.sendMessage(from, makerny, image, {quoted: mek, caption: `Nihh Hasil ${command} Nya`})
-break
-case 'chalkboard': case 'airline': case 'surfingboard': case 'neonwriting': case 'watercolor': case 'footballplayer': case 'birthdaycake': case 'arrowsigns': 
-if (args.length === 0) return reply(`Example : ${prefix + command} ${pushname} gg\n\nHarus Ada 2 Text Ya Kk`)
-reply(mess.wait)
-txt1 = args[0]
-txt2 = args[0]
-makern = await getBuffer(`https://api.dapuhy.xyz/api/photofunia/${command}?text1=${txt1}&text2=${txt2}&apikey=${apidapa}`)
-dha.sendMessage(from, makern, image, {quoted: mek, caption: `Nihh Hasil ${command} Nya`})
+dha.sendMessage(from, makerny, image, {quoted: mek, caption: `Nih *${command}* nya sudah jadi...`})
 break
 
 //═════════════════════════ [ 18+ MENU ] ═════════════════════════
